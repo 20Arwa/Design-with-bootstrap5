@@ -1,0 +1,151 @@
+/* General */
+* {box-sizing: border-box}
+
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color:#ffc400;
+    --section-color: #eff7fa
+}
+body {font-family: 'Roboto', sans-serif}
+
+.container {
+    text-align: center;
+    width: 90%; 
+    margin: 0px auto;
+    padding: 80px 0;
+}
+.main-button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: var(--yellow-color);
+    background-color: var(--red-color);
+}
+.title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Start nav */
+nav {background-color: var(--dark-color)}
+
+nav .nav-link {color: white}
+
+nav .nav-link:hover, 
+nav .nav-link:active, 
+nav .nav-link:focus {color: var(--green-color)}
+
+nav .active {color: var(--green-color)}
+
+nav .search {color: var(--green-color); border-left: 1px solid var(--green-color)}
+
+nav div > .navbar-toggler {border-color: white !important}
+
+nav div > .navbar-toggler:focus {box-shadow: none}
+
+nav div > .navbar-toggler[aria-expanded="true"] {border-color: var(--green-color) !important}
+
+nav div > .show {margin-top: 15px; border-top: 1.5px solid var(--green-color)}
+
+nav div > .show .search {border: none}
+/* Start landing */
+.landing {height: calc(100vh - 72px); background-color: var(--dark-color)}
+
+/* Start we are good at */
+.we-are-good-at .content div div svg {color: var(--green-color); font-size: 60px !important}
+
+.we-are-good-at .content div h4 {color: var(--yellow-color)}
+
+.we-are-good-at .content > div {margin-top: 180px}
+
+.we-are-good-at .content div div::before {
+    content: "1";
+    font-size: 250px;
+    color: var(--section-color);
+    position: absolute;
+    z-index: -1;
+    top: -230px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.we-are-good-at .content div:nth-of-type(2) div::before {content: "2"}
+
+.we-are-good-at .content div:nth-of-type(3) div::before {content: "3"}
+/* Start we make this */
+.we-make-this {background-color: var(--section-color)}
+
+.we-make-this ul .active {
+    padding: .5em 1em;
+    border-radius: 20px;
+    color: var(--yellow-color);
+    background-color: var(--red-color);
+}
+.we-make-this ul li:hover {cursor: pointer}
+
+.we-make-this ul li:hover:not(.active) {color: var(--red-color)}
+
+.we-make-this .img-box::before {
+    content: "Application";
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    color: white;
+    background-color: var(--green-color);
+    opacity: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-155%, -50%);
+    line-height: 6;
+    font-size: 25px;
+    transition: .3s;
+}
+.we-make-this .img-box:hover::before {transform: translate(-50%, -50%)}
+/* Start about us */
+.about-us > p:first-of-type {width: 55%}
+/* Start team */
+.team {background-color: var(--section-color)}
+
+.team .container > h2 {color: var(--yellow-color)}
+
+.team .members .member > h4 {background-color: var(--green-color)}
+/* Start project */
+.project {background-color: var(--dark-color)}
+/* Strat subscribe */
+.subscribe {background-color: var(--yellow-color)}
+
+.subscribe .container div > h5 {color: var(--dark-color)}
+
+.subscribe .container div > input[type="email"] {width: 100%}
+
+.subscribe .container div > input[type="email"]::placeholder {color: white}
+
+.subscribe .container div > input[type="email"]:focus {outline: none}
+
+.subscribe .container div > input[type="button"] {background-color: var(--dark-color)}
+/* Start footer */
+footer {background-color: var(--dark-color)}
+
+footer .right p:first-of-type span {color: var(--green-color)}
+
+footer .right p:last-of-type span {color: var(--yellow-color)}
+
+footer .contact input {width: 100%}
+
+footer .contact .icons .facebook {background-color: #1877f2}
+
+footer .contact .icons .twitter {background-color: #1da1f2}
+
+footer .contact .icons .linkedin {background-color: #0077b5}
+
+footer .contact .icons .youtube {background-color: #ff0000}
+
+
+
