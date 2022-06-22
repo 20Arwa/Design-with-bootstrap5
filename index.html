@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap5</title>
+        <!-- Css Files -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid ms-5 me-5">
+                <img src="images/logo.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars fs-6 text-white navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-0 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active ps-3 pe-3 pt-3 pb-3" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3 pt-3 pb-3" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3 pt-3 pb-3" href="#">Portolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3 pt-3 pb-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3 pt-3 pb-3" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex align-items-center" role="search">
+                    <i class="fas fa-search search ps-3 pe-3 pt-1 pb-1"></i>
+                    <button class="btn main-button" type="submit">Login</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Start landing -->
+        <div class="landing d-flex justify-content-center align-items-center">
+            <div class="container">
+                <h1 class="text-white">Taste the Creativity</h1>
+                <p class="text-white-50">We make awesome graphic and web design</p>
+                <input class="main-button mt-5" type="button" value="Get Started">
+            </div>
+        </div>
+        <!-- Start we are good at -->
+        <div class="we-are-good-at">
+            <div class="container">
+                <div class="title position-relative">
+                    <img src="images/title.png" alt="title">
+                    <h2 class="mt-4">We are Good at</h2>
+                    <p class="text-black-50">SOME OF THESE STUFF UNDER</p>
+                </div>
+                <div class="content row justify-content-center">
+                    <div class="col-lg-4 col-md-6 position-relative">
+                        <div>
+                            <i class="fas fa-pen fs-1"></i>
+                        </div>
+                        <h4 class="mt-3 mb-3">GRAPHIC DESIGN</h4>
+                        <p class="text-black-50 lh-lg">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                            lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 position-relative">
+                        <div>
+                            <i class="fas fa-laptop fs-1"></i>
+                        </div>
+                        <h4 class="mt-3 mb-3">GRAPHIC DESIGN</h4>
+                        <p class="text-black-50 lh-lg">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                            lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 position-relative">
+                        <div>
+                            <i class="fas fa-plug fs-1"></i>
+                        </div>
+                        <h4 class="mt-3 mb-3">GRAPHIC DESIGN</h4>
+                        <p class="text-black-50 lh-lg">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                            lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start we make this -->
+        <div class="we-make-this">
+            <div class="container">
+                <div class="title position-relative">
+                    <img src="images/title.png" alt="title">
+                    <h2 class="mt-4">We Make This</h2>
+                    <p class="text-black-50">PREPARE TO BE AMAZED</p>
+                </div>
+                <ul class="mt-5 mb-5 list-unstyled d-flex justify-content-center align-items-center">
+                    <li class="ms-3 me-3 active pe-auto">All</li>
+                    <li class="ms-3 me-3">Design</li>
+                    <li class="ms-3 me-3">Code</li>
+                    <li class="ms-3 me-3">Photo</li>
+                    <li class="ms-3 me-3">App</li>
+                </ul>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box">
+                        <div class="img-box bg-light ps-1 pe-1 pt-1 pb-1 position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/work-01.jpg">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box">
+                        <div class="img-box bg-light ps-1 pe-1 pt-1 pb-1 position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/work-02.jpg">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box">
+                        <div class="img-box bg-light ps-1 pe-1 pt-1 pb-1 position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/work-03.jpg">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box">
+                        <div class="img-box bg-light ps-1 pe-1 pt-1 pb-1 position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/work-04.jpg">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box">
+                        <div class="img-box bg-light ps-1 pe-1 pt-1 pb-1 position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/work-05.jpg">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box">
+                        <div class="img-box bg-light ps-1 pe-1 pt-1 pb-1 position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/work-06.jpg">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box">
+                        <div class="img-box bg-light ps-1 pe-1 pt-1 pb-1 position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/work-07.jpg">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box">
+                        <div class="img-box bg-light ps-1 pe-1 pt-1 pb-1 position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/work-08.jpg">
+                        </div>
+                    </div>
+                </div>
+                <input class="main-button text-uppercase mt-5" type="button" value="i want more">
+            </div>
+        </div>
+        <!-- Staer about us -->
+        <div class="about-us text-center container pb-0">
+            <div class="title position-relative">
+                <img src="images/title.png" alt="title">
+                <h2 class="mt-4">Some Stuff About Us</h2>
+                <p class="text-black-50">THE GREAT TEAM</p>
+            </div>
+            <p class="text-black-50 ms-auto me-auto mt-5 mb-5">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-12 col-lg-4 text-sm-center text-md-start">
+                        <h4>Retina Design</h4>
+                        <p class="text-black-50">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+                        <p class="text-black-50">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                            Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                        <input class="text-uppercase main-button mb-4" type="button" value="order me one">
+                    </div>
+                    <img class="col-lg-8" src="images/laptop.png" alt="laptop">
+                </div>
+        </div>
+        <!-- Start team -->
+        <div class="team">
+            <div class="container">
+                <h2>Meet The Team</h2>
+                <p class="text-black-50 mb-5">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                <div class="row members justify-content-center">
+                    <div class="member col-md-6 col-lg-3">
+                        <img class="img-fluid" src="images/team-1.png">
+                        <h4 class="text-white pt-3 pb-3 mb-0">Luke Skywalker</h4>
+                        <p class="text-black-50 mb-0 ps-3 pe-3 pt-3 pb-3 bg-white">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                    <div class="member col-md-6 col-lg-3">
+                        <img class="img-fluid" src="images/team-2.png">
+                        <h4 class="text-white pt-3 pb-3 mb-0">Luke Skywalker</h4>
+                        <p class="text-black-50 mb-0 ps-3 pe-3 pt-3 pb-3 bg-white">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                    <div class="member col-md-6 col-lg-3">
+                        <img class="img-fluid" src="images/team-3.png">
+                        <h4 class="text-white pt-3 pb-3 mb-0">Luke Skywalker</h4>
+                        <p class="text-black-50 mb-0 ps-3 pe-3 pt-3 pb-3 bg-white">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                    <div class="member col-md-6 col-lg-3">
+                        <img class="img-fluid" src="images/team-4.png">
+                        <h4 class="text-white pt-3 pb-3 mb-0">Luke Skywalker</h4>
+                        <p class="text-black-50 mb-0 ps-3 pe-3 pt-3 pb-3 bg-white">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start tecs -->
+        <div class="row tecs container justify-content-between align-items-center">
+            <div class="col-sm-6 col-md-4 col-lg-2 mb-4"><img src="images/tech-1.png"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mb-4"><img src="images/tech-2.png"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mb-4"><img src="images/tech-3.png"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mb-4"><img src="images/tech-4.png"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mb-4"><img src="images/tech-1.png"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mb-4"><img src="images/tech-2.png"></div>
+        </div>
+        <!-- Start project -->
+        <div class="project text-center pt-5 pb-5">
+            <h2 class="text-white">Start Your Project Now</h2>
+            <p class="text-white-50">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+            <input class="main-button text-uppercase mt-4 mb-3" type="button" value="start project">
+        </div>
+        <!-- Start blog -->
+        <div class="blog container">
+            <div class="title position-relative">
+                <img src="images/title.png" alt="title">
+                <h2 class="mt-4">Read Our Blog</h2>
+                <p class="text-black-50">NEW STORIES</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="border border-1 rounded">
+                        <img class="img-fluid rounded-top" src="images/blog-1.jpg">
+                        <div class="text text-start ps-3 pt-3 pb-3">
+                            <p class="text-black-50 mb-0">Jan 17, 2022</p>
+                            <h5 class="">Some Awesome Blog Title Here</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="border border-1 rounded">
+                        <img class="img-fluid rounded-top" src="images/blog-2.jpg">
+                        <div class="text text-start ps-3 pt-3 pb-3">
+                            <p class="text-black-50 mb-0">Jan 17, 2022</p>
+                            <h5 class="">Some Awesome Blog Title Here</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="border border-1 rounded">
+                        <img class="img-fluid rounded-top" src="images/blog-3.jpg">
+                        <div class="text text-start ps-3 pt-3 pb-3">
+                            <p class="text-black-50 mb-0">Jan 17, 2022</p>
+                            <h5 class="">Some Awesome Blog Title Here</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input class="main-button mt-3" type="button" value="MORE STORIES">
+        </div>
+        <!-- Start subscribe -->
+        <div class="subscribe">
+            <div class="row container align-items-center pt-5 pb-5">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3"><h5 class="fw-bold">Subscribe to our Newsletter:</h5></div>
+                <div class="col-sm-12 col-md-6 col-lg-6 border-bottom border-light mb-4">
+                    <input class="text-light bg-transparent text-light border-0" type="email" placeholder="Enter Your Email" name="email" id="email">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-2 mb-3"><input class="main-button" type="button" value="Subscribe"></div>
+            </div>
+        </div>
+        <!-- Start footer -->
+        <footer>
+            <div class="container row  text-sm-center text-md-start pb-0">
+                <div class="logoo col-md-6 col-lg-4 mb-4">
+                    <img src="images/logo.png" alt="logo">
+                    <p class="text-white-50 mt-4 mb-5">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                        lacinia eget consectetur sed, convallis at tellus.</p>
+                    <div class="right">
+                        <p class="text-white-50 mb-0">Created By <span>Graphberry</span></p>
+                        <p class="text-white-50">© 2022 -<span>Bondi Inc</span></p>
+                    </div>
+                </div>
+                <div class="links col-md-6 col-lg-2 lh-1 mb-4">
+                    <h5 class="text-light mb-3">Links</h5>
+                    <p class="text-white-50">Home</p>
+                    <p class="text-white-50">Our services</p>
+                    <p class="text-white-50">Portfolio</p>
+                    <p class="text-white-50">Testimonials</p>
+                    <p class="text-white-50">Support</p>
+                    <p class="text-white-50">Terms and condition</p>
+                </div>
+                <div class="about col-md-6 col-lg-2 lh-1 mb-4">
+                    <h5 class="text-light mb-3">About Us</h5>
+                    <p class="text-white-50">Sign In</p>
+                    <p class="text-white-50">Register</p>
+                    <p class="text-white-50">About Us</p>
+                    <p class="text-white-50">Blog</p>
+                    <p class="text-white-50">Contact Us</p>
+                </div>
+                <div class="contact col-md-6 col-lg-4 mb-4">
+                    <h5 class="text-light mb-3">Contact Us</h5>
+                    <p class="text-white-50 lh-lg">Get in touch with us via mail phone.We are waiting for your call or message</p>
+                    <input class="main-button mt-5 mb-5" type="button" value="grapherry@gmail.com">
+                    <ul class="icons d-flex justify-content-sm-center justify-content-lg-start text-white list-unstyled">
+                        <li class="rounded-circle p-2 me-3 facebook"><i class="fab  fa-facebook pe-1 ps-1"></i></li>
+                        <li class="rounded-circle p-2 me-3 twitter"><i class="fab  fa-twitter pe-1 ps-1"></i></li>
+                        <li class="rounded-circle p-2 me-3 linkedin"><i class="fab  fa-linkedin pe-1 ps-1"></i></li>
+                        <li class="rounded-circle p-2 me-3 youtube"><i class="fab  fa-youtube pe-1 ps-1"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="js\bootstrap.bundle.min.js"></script>
+        <script src="js\all.min.js"></script>
+    </body>
+</html>
